@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+body{
+	/*background: #EDEDED; */
+	/*background: #484646;*/
+}
+
+article {
+	margin-left: 35px;
+}
+
+article p {
+	padding: 10px;
+}
+
+h1{
+	font-size: 2rem;
+}
+.enviar-derecha{
+	margin-left: auto;
+	padding: 0;
+}
+/*NAVEGADOR*/
+#navegador{
+	position: fixed;
+    z-index: 100;
+    background-color:#313030 ;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: -25px;
+}
+
+nav{
+	max-width: 1100px;
+	margin: auto;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+}
+
+nav li{
+
+	background: #090909;
+	color: white;
+	padding: 5px;
+	height: 20px;
+	list-style: none;
+	margin-right: 30px;
+	border-radius: 5px;
+}
+
+nav li:hover{
+	transform: scale(1.1); 
+	background: #F6F5F5;
+	cursor: pointer;
+	color: black;
+	border-radius: 5px;
+	height: 22px;
+	transition-duration: 0.5s;
+
+}
+
+#contenedor{
+	max-width: 100%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	margin-left: 0px;
+}
+
+#contenedor #contenedorInterno{
+	flex-grow: 1;
+	padding: 20px;
+	margin-top: 35px; /**/
+	margin-left: 0px;
+	width: 100%;
+}
+
+#contenedor #contenedorInterno .navPost{
+	height: 38px;
+	border-radius: 9px;
+	background: black;
+	color: white;
+
+}
+
+
+#contenedor aside {
+	width: 300px;
+	padding: 25px;
+	margin-left: 45px;
+	background-color: #313030 ;
+	margin-top: 45px;
+	height: 1400px;
+}
+
+.articuloRelacionado{
+	width: 280px;
+	background: black;
+	/*margin: auto;*/
+	margin-top: 20px;
+	margin-bottom: 28px;
+	padding: 6px;
+	color: #ffffff;
+	transition: all .2s;
+	border-radius: 10px;
+
+}
+.articuloRelacionado:hover{
+	transform: scale(1.1); 
+	box-shadow: 0px 0px 5px 0px #0E0E0E;
+	cursor: pointer;
+}
+.categoria{
+	margin-top: 15px;
+	width: 94%;
+	margin-left: 35px;
+	display: flex;
+	background: #F1F1F1;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom:  solid 1.5px #B5B5B5;
+}
+.navPost{
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+	border-top: solid 2px #E9E9E9;
+}
+.navPost div{
+	flex-grow: 1;
+	padding: 10px;
+}
+
+footer{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -25px;
+	background: #313030;
+}
+
+#contenedor #contenedorInterno
+#IMAGEN1 {
+	border-radius: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-right: -45px;
+	width: 60%;
+	margin-left: 180px;
+}
+
+#contenedor #contenedorInterno
+#IMAGEN2 {
+	text-align: center;
+	width: 220px;
+	margin-left: 320px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+footer .logo {
+	text-align: center;
+	padding: 10px;
+}
+
+footer p {
+	text-align: center;
+	color: silver;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
